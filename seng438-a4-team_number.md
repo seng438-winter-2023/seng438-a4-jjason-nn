@@ -29,7 +29,36 @@
 
 # Explain your SELENUIM test case design process
 
+The Selenium test case design process was commenced by meeting with the team and deciding what 8 functionalities of the application we need to test. We chose the following functionalities:
+1. Login
+2. Product Review
+3. Browse Category
+4. Logout
+5. Signup
+6. Shopping Cart
+7. Wishlist
+8. Search Item
 
+After deciding the functionalities, we assigned two to each, and each member was responsible for first play testing the functionality. Through this we were able to find the different kinds of input that could result in a success or a failure in that functionality. We then designed a test case for each of those scenarios within a test suite for each functionality.
+
+Here are the different test cases:
+1. Login
+   - Invalid Email
+   - Invalid Password
+   - Correct Email and Correct Password
+2. Browse Category
+   - Browse Books Categories
+3. Logout
+4. Product Review
+   - Write and submit product review on latest order 
+5. Sign up 
+   - Email already in use
+    - Passwords don’t match
+6. Shopping Cart
+    - Add item to cart
+7. Wishlist
+    - Add item to wishlist
+8. Search
 
 # Explain the use of assertions and checkpoints
 
