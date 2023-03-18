@@ -27,7 +27,7 @@
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
-# Explain your SELENUIM test case design process
+# Explain your SELENIUM test case design process
 
 The Selenium test case design process was commenced by meeting with the team and deciding what 8 functionalities of the application we need to test. We chose the following functionalities:
 1. Login
