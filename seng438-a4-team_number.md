@@ -12,6 +12,13 @@
 
 # Introduction
 
+This lab consists of two sections: Mutation Testing and GUI Testing. Students will learn how to inject mutation faults into a Java code-base using a mutation testing tool, how to interpret the reported mutation scores, and how to apply this knowledge to the design of new test cases to improve the overall quality of the test suite during the first part of the course. The second section focuses on the most prevalent method of GUI test automation, record and replay. Students will learn how to utilize Selenium, a well-known web interface testing tool, and compare it to an alternative.
+
+In Assignment 3, we investigated whitebox testing and various code coverage tools to enhance our designed test suites. Now, we use tutorial testing and automated GUI testing to discover ways to improve our tests further.
+
+For mutation testing, we used Pitclipse which is an Eclipse IDE plugin that runs the pitest mutation test tool against our unit tests by seeding mutations into our code. If our unit tests are written well, then they should fail given a mutation and indicate that there is an issue. If the tests pass, then it is likely that the unit tests did not account for a specific case. 
+
+For GUI testing, we primarily used the Selenium web-interface testing tool to test the Amazon website. Instead of futilely attempting to discover bugs in the website, we instead focused on testing typical user interactions as a means of familiarizing ourselves with automation testing. Our tests will run sequentially, and will rely on the state of the prior test to function properly.
 
 # Analysis of 10 Mutants of the Range class 
 
